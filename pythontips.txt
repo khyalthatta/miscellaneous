@@ -1,0 +1,53 @@
+
+
+
+# Tips for the Python
+
+# Dictionary 
+
+To create a dictionary 
+
+empty_dict = {}
+
+empty_dict = dict()
+
+dict = {'key': 'value'}
+
+---> to update single value
+
+dict['key'] = value
+
+----> to update multiple values 
+
+dict.update({'multiple_keys': 'multiple_values'})
+
+
+
+# List and Tuple
+
+list is mutable(can be changed) where tuple is immutable(cannot be changed)
+
+empty_list  = []
+
+empty_tuple = ()
+
+# Functions
+
+enumirate() ----> methods which is used to print index of values of a list on python. It counts the iteration of a list.
+
+
+# Sets
+
+Sets are usually used to remove duplicate data. 
+
+empty_set = {} 	----> This is the wrong way to create empty set. This actually create an empty dictionary.
+
+empty_set = set()    ----> The right way.
+
+We can use methods like:
+
+intersection()
+difference()
+union()
+
+to determine the value on the sets.
